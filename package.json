@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "heroku-postbuild": "cd cardzapp && npm install && npm startgit "
+    "heroku-postbuild": "cd cardzapp && npm install && npm start"
   },
   "repository": {
     "type": "git",
