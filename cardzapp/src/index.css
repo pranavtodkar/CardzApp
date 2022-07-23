@@ -11,3 +11,59 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.add{
+  position: absolute;
+  right:10rem;
+}
+
+.create-bucket{
+  position: absolute;
+  right: 2rem;
+}
+
+.highlight{
+  position: relative;
+  height: 20rem;
+  width: 20rem;
+  cursor: pointer;  
+  padding: 1rem;
+}
+.name{
+  position: absolute;
+  bottom: 1rem;
+}
+
+.tag{
+  position: absolute;
+  left: 1rem;
+}
+
+.text{
+  position: absolute;
+  left: 1rem;
+  top: 4rem;
+  width:18rem;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.shade{
+  
+  box-shadow:20rem 20px 50px 10px grey inset;
+
+}
+
+.group{
+  position: absolute;
+  width: 40rem;
+  height: 20rem;
+  background-color: grey;
+}
+.header{
+  height: 4rem;
+  background-color: rgb(61, 61, 61);
+  color: white;
+  font-size: 2rem;
+  vertical-align: middle;
+}
